@@ -32,10 +32,10 @@ Severity is decided by likelihood and impact with four levels: critical, severe,
 
 | **Technical severity** | Reward range      |
 | ---------------------- | ----------------- |
-| P1 - Critical          | $ 1,000 or above  |
-| P2 - Severe            | $ 500 - $ 1,000 |
-| P3 - Moderate          | $ 200 - $ 500   |
-| P4 - Low               | $ 100 - $ 200     |
+| P1 - Critical          | $ 1,001 or above  |
+| P2 - Severe            | $ 501 - $ 1,000 |
+| P3 - Moderate          | $ 201 - $ 500   |
+| P4 - Low               | $ 10 - $ 200     |
 
 
 
@@ -64,26 +64,25 @@ Severity is decided by likelihood and impact with four levels: critical, severe,
 **Vulnerabilities with similar impact as P1 vulnerabilities, but are dependent on specific prerequisites, including:**
 
 1. Vulnerabilities that could undermine or disrupt trading or token economy.
-2. Vulnerabilities that could disrupt the oracle price feed service.
+2. Vulnerabilities that could disrupt or manipulate the oracle price feed service.
 3. Vulnerabilities that could cause user can not redeem their funds and rewards.
 
    
 
 ### P3 (Moderate):
 
-**Denial of service of critical functions, including:**
+**Vulnerabilities of critical functions, including:**
 
-1. Denial of service of nodes.
-
-
+1. Failed to call deposit or withdraw funtcion of contracts.
+2. Config params mismatch.
 
 ### P4 (Low):
 
 **Client and UI bugs, including:**
 
-1. Web garbled.
-2. Failure to load a web page.
-3. Some functions cannot be used.
+1. Web UI bugs.
+2. Failure to load data.
+3. Some query functions cannot be used.
 
 
 
