@@ -1,6 +1,8 @@
 # Torches bug bounty
 ---
 
+
+
 ## Vulnerability Severity
 
 | **Impact** | Likelihood | Severity |
