@@ -1,7 +1,7 @@
 # Torches bug bounty
 ---
 
-
+![](https://trello.com/1/cards/62bc2b69af4ead62b9ac41a1/attachments/62bc2b787c37ed28be7a6f49/download/bugbounty.jpg)
 
 ## Vulnerability Severity
 
